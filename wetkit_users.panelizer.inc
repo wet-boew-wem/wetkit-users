@@ -85,7 +85,7 @@ function wetkit_users_panelizer_defaults() {
       'delta_offset' => '0',
       'delta_reversed' => FALSE,
       'formatter_settings' => array(
-        'image_style' => 'panopoly_image_full',
+        'image_style' => 'wetkit_image_full',
         'image_link' => '',
       ),
       'context' => 'panelizer',
@@ -168,7 +168,7 @@ function wetkit_users_panelizer_defaults() {
       'delta_offset' => '0',
       'delta_reversed' => FALSE,
       'formatter_settings' => array(
-        'image_style' => 'panopoly_image_half',
+        'image_style' => 'wetkit_image_half',
         'image_link' => '',
       ),
       'context' => 'panelizer',
@@ -292,7 +292,7 @@ function wetkit_users_panelizer_defaults() {
       'delta_offset' => '0',
       'delta_reversed' => FALSE,
       'formatter_settings' => array(
-        'image_style' => 'panopoly_image_half',
+        'image_style' => 'wetkit_image_half',
         'image_link' => 'content',
       ),
       'context' => 'panelizer',

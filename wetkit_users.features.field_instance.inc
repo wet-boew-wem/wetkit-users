@@ -96,7 +96,7 @@ function wetkit_users_field_default_field_instances() {
       'active' => 1,
       'module' => 'image',
       'settings' => array(
-        'preview_image_style' => 'panopoly_image_featured',
+        'preview_image_style' => 'wetkit_image_featured',
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',

@@ -16,7 +16,7 @@ function wetkit_users_apps_app_info() {
 }
 
 /**
- * Configuration Form for Panopoly Magic
+ * Configuration Form for WetKit Users.
  */
 function wetkit_users_configure_form($form, &$form_state) {
   $form = array();

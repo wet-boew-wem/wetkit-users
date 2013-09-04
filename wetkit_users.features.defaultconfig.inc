@@ -27,7 +27,7 @@ function wetkit_users_defaultconfig_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'panelizer_defaults_user_user';
   $strongarm->value = array(
-    'status' => 1,
+    'status' => 0,
     'view modes' => array(
       'page_manager' => array(
         'status' => 1,

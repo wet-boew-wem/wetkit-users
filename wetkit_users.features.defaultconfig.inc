@@ -11,7 +11,6 @@ function wetkit_users_defaultconfig_features() {
   return array(
     'wetkit_users' => array(
       'strongarm' => 'strongarm',
-      'user_default_permissions' => 'user_default_permissions',
     ),
   );
 }

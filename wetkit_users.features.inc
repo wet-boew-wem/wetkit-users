@@ -17,6 +17,9 @@ function wetkit_users_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "panelizer" && $api == "panelizer") {
     return array("version" => "1");
   }
+  if ($module == "path_breadcrumbs" && $api == "path_breadcrumbs") {
+    return array("version" => "1");
+  }
   if ($module == "pm_existing_pages" && $api == "pm_existing_pages") {
     return array("version" => "1");
   }

@@ -41,10 +41,6 @@ function wetkit_users_default_page_manager_handlers() {
       ),
       'logic' => 'and',
     ),
-    'panels_breadcrumbs_state' => 1,
-    'panels_breadcrumbs_titles' => 'Log in',
-    'panels_breadcrumbs_paths' => '',
-    'panels_breadcrumbs_home' => 1,
   );
   $display = new panels_display();
   $display->layout = 'burr_flipped';
@@ -121,11 +117,6 @@ function wetkit_users_default_page_manager_handlers() {
       ),
       'logic' => 'and',
     ),
-    'panels_breadcrumbs_state' => 1,
-    'panels_breadcrumbs_titles' => 'Log in
-Request Password',
-    'panels_breadcrumbs_paths' => 'user/login',
-    'panels_breadcrumbs_home' => 1,
   );
   $display = new panels_display();
   $display->layout = 'burr_flipped';
@@ -202,10 +193,6 @@ Request Password',
       ),
       'logic' => 'and',
     ),
-    'panels_breadcrumbs_state' => 1,
-    'panels_breadcrumbs_titles' => 'Create an Account',
-    'panels_breadcrumbs_paths' => '',
-    'panels_breadcrumbs_home' => 1,
   );
   $display = new panels_display();
   $display->layout = 'burr_flipped';

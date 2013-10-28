@@ -1,5 +1,5 @@
-Users
-=====
+WxT Users
+=========
 Sets up user defaults for [Drupal WxT][drupalwxt].
 
 Key Features

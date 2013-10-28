@@ -73,7 +73,7 @@ function wetkit_users_form_alter(&$form, $form_state, $form_id) {
 
     // Add a create account link below the username.
     if ($form_id == 'user_login' && variable_get('user_register')) {
-      $form['name']['#description'] .= '<br />' . t('If you don\'t have an username, !create.', array('!create' => l(t('create an account'), 'user/register')));
+      $form['name']['#description'] .= '<br />' . t("If you don't have an username, !create.", array('!create' => l(t('create an account'), 'user/register')));
     }
 
     // Add the request password link below the password.

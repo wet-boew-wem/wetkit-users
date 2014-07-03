@@ -26,7 +26,6 @@ features[defaultconfig][] = user_default_permissions:create files
 features[defaultconfig][] = user_default_permissions:moderate content from draft to needs_review
 features[defaultconfig][] = user_default_permissions:moderate content from needs_review to draft
 features[defaultconfig][] = user_default_permissions:moderate content from needs_review to published
-features[defaultconfig][] = user_default_permissions:prevent wxt mobile
 features[defaultconfig][] = user_default_permissions:search content
 features[defaultconfig][] = user_default_permissions:use workbench_moderation my drafts tab
 features[defaultconfig][] = user_default_permissions:use workbench_moderation needs review tab

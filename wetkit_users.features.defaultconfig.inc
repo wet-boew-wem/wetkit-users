@@ -118,15 +118,6 @@ function wetkit_users_defaultconfig_user_default_permissions() {
     'module' => 'workbench_moderation',
   );
 
-  // Exported permission: 'prevent wxt mobile'.
-  $permissions['prevent wxt mobile'] = array(
-    'name' => 'prevent wxt mobile',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'wetkit_wetboew',
-  );
-
   // Exported permission: 'search content'.
   $permissions['search content'] = array(
     'name' => 'search content',

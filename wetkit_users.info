@@ -51,7 +51,6 @@ features[path_breadcrumbs][] = wetkit_pm_existing_pages_user
 features[path_breadcrumbs][] = wetkit_pm_existing_pages_user_password
 features[path_breadcrumbs][] = wetkit_pm_existing_pages_user_register
 features[variable][] = page_manager_user_view_disabled
-features[variable][] = panelizer_defaults_user_user
 features[variable][] = panelizer_user:user_allowed_layouts_default
 features[variable][] = panelizer_user:user_allowed_types_default
 features[variable][] = pm_existing_pages_disabled_user_login

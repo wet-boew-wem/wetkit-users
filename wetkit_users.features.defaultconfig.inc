@@ -67,27 +67,6 @@ function wetkit_users_defaultconfig_user_default_permissions() {
     'module' => 'admin_menu',
   );
 
-  // Exported permission: 'access content'.
-  $permissions['access content'] = array(
-    'name' => 'access content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'create files'.
-  $permissions['create files'] = array(
-    'name' => 'create files',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'file_entity',
-  );
-
   // Exported permission: 'moderate content from draft to needs_review'.
   $permissions['moderate content from draft to needs_review'] = array(
     'name' => 'moderate content from draft to needs_review',
@@ -125,18 +104,6 @@ function wetkit_users_defaultconfig_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'wetkit_wetboew',
-  );
-
-  // Exported permission: 'search content'.
-  $permissions['search content'] = array(
-    'name' => 'search content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
-      'editor' => 'editor',
-    ),
-    'module' => 'search',
   );
 
   // Exported permission: 'use workbench_moderation my drafts tab'.

@@ -24,7 +24,6 @@ features[defaultconfig][] = user_default_permissions:access administration menu
 features[defaultconfig][] = user_default_permissions:moderate content from draft to needs_review
 features[defaultconfig][] = user_default_permissions:moderate content from needs_review to draft
 features[defaultconfig][] = user_default_permissions:moderate content from needs_review to published
-features[defaultconfig][] = user_default_permissions:prevent wxt mobile
 features[defaultconfig][] = user_default_permissions:use workbench_moderation my drafts tab
 features[defaultconfig][] = user_default_permissions:use workbench_moderation needs review tab
 features[defaultconfig][] = user_default_permissions:view all unpublished content

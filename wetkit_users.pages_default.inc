@@ -55,6 +55,8 @@ function wetkit_users_default_page_manager_handlers() {
   $display->cache = array();
   $display->title = 'Log in';
   $display->uuid = '7f016b0e-91ae-0974-b5cd-6f19a14c991e';
+  $display->storage_type = 'page_manager';
+  $display->storage_id = 'pm_existing_pages_user_login_panel_context';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
@@ -131,6 +133,8 @@ function wetkit_users_default_page_manager_handlers() {
   $display->cache = array();
   $display->title = '';
   $display->uuid = 'b9c0d611-eb01-3b84-15c8-4b343c3e746b';
+  $display->storage_type = 'page_manager';
+  $display->storage_id = 'pm_existing_pages_user_password_panel_context';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
@@ -207,6 +211,8 @@ function wetkit_users_default_page_manager_handlers() {
   $display->cache = array();
   $display->title = 'Create an Account';
   $display->uuid = 'd1fd1426-0cbf-c0e4-bd6a-4f9bc58d845a';
+  $display->storage_type = 'page_manager';
+  $display->storage_id = 'pm_existing_pages_user_register_panel_context';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
@@ -272,6 +278,8 @@ function wetkit_users_default_page_manager_handlers() {
   $display->cache = array();
   $display->title = '';
   $display->uuid = '4d0e02d9-bf3b-3be4-4159-f564718f52c1';
+  $display->storage_type = 'page_manager';
+  $display->storage_id = 'user_edit_panel_context';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
